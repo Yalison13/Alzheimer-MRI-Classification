@@ -19,14 +19,24 @@ This repository implements a deep learning pipeline to classify MRI images into 
 
 ## 📊 Results
 The model was evaluated on a test set to ensure robustness. Below is a representation of the classification performance.
-![Confusion Matrix](https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Confusion%20Matrix.png?raw=true)
-**Figure 1: Confusion Matrix **
+<p align="center">
+  <img src="https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Confusion%20Matrix.png?raw=true" width="75%">
+  <br>
+  <b>Figure 1: Confusion Matrix for Alzheimer's classification using DenseNet201.</b>
+</p>
 
-![Model Accuracy](https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Accuracy.png?raw=true)
-**Figure 2: Model Accuracy**
+<p align="center">
+	<img src="https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Accuracy.png?raw=true" width = "75%">
+	<br>
+	<b>	Figure 2: Training and Validation Accuracy curves.</b>
+</p>
 
-![Model Loss](https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Loss.png?raw=true)
-**Figure 3: Model Loss**
+<p align="center">
+	<img src="https://github.com/Yalison13/Alzheimer-MRI-Classification/blob/main/results/Loss.png?raw=true" width = "75%">
+	<br>
+	<b>	Figure 3: Training and Validation Loss evolution.</b>
+</p>
+
 
 
 **Model Architecture:** DenseNet201 (Frozen base layers with custom dense head)
