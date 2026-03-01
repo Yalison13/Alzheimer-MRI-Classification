@@ -36,9 +36,9 @@ The model was evaluated on a test set to ensure robustness. Below is a represent
 </p>
 <br>
 
-**Model Architecture:** DenseNet201 (Frozen base layers with custom dense head)
-**Optimizer:** Adam
-**Loss Function:** Categorical Crossentropy
+- **Model Architecture:** DenseNet201 (Frozen base layers with custom dense head)
+- **Optimizer:** Adam
+- **Loss Function:** Categorical Crossentropy
 
 
 ## ⚙️ Getting Started
